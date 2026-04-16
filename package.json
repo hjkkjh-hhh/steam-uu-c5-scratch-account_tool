@@ -1,0 +1,45 @@
+{
+  "name": "steam-multi-account-tool",
+  "version": "1.0.0",
+  "description": "CS2/Steam 多账号自动化管理工具，支持库存同步、Steam 市场挂刀、C5Game 平台对接、价格追踪与钉钉告警",
+  "author": "hjkkjh-hhh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hjkkjh-hhh/steam-uu-c5-scratch-account_tool.git"
+  },
+  "keywords": [
+    "steam",
+    "cs2",
+    "csgo",
+    "automation",
+    "c5game",
+    "multi-account",
+    "nodejs"
+  ],
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "https-proxy-agent": "^9.0.0",
+    "mysql2": "^3.21.1",
+    "puppeteer-core": "^24.40.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "socks-proxy-agent": "^10.0.0",
+    "steam-session": "^1.9.4",
+    "steam-totp": "^2.1.2",
+    "steam-tradeoffer-manager": "^2.13.0",
+    "steam-user": "^5.3.0",
+    "steamcommunity": "^3.50.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "activeCurrencies": ["CNY"],
+  "showCashOut": true,
+  "showTopUp": true,
+
+  "adminPassword": "YOUR_ADMIN_PASSWORD",
+
+  "dingTalkWebhook": "https://oapi.dingtalk.com/robot/send?access_token=YOUR_DINGTALK_ACCESS_TOKEN",
+  "dingTalkSecret": "YOUR_DINGTALK_HMAC_SECRET",
+
+  "c5gameApiKey": "YOUR_C5GAME_API_KEY",
+  "c5gameApiSecret": "YOUR_C5GAME_API_SECRET",
+
+  "webshare": {
+    "enabled": false,
+    "userPrefix": "your-prefix-",
+    "userMin": 1,
+    "userMax": 100,
+    "pass": "YOUR_WEBSHARE_PASSWORD",
+    "host": "p.webshare.io",
+    "port": 80
+  },
+
+  "clashAutoRotate": false,
+  "clashProxyPort": "7890",
+  "clashApiPort": "9090",
+  "clashSecret": "YOUR_CLASH_API_SECRET",
+  "clashGroup": "your-proxy-group-name",
+  "clashPipeName": "",
+
+  "abuyun": {
+    "enabled": false,
+    "appKey": "YOUR_ABUYUN_APP_KEY",
+    "appSecret": "YOUR_ABUYUN_APP_SECRET",
+    "host": "proxy.abuyun.com",
+    "port": 9020
+  },
+
+  "pushRankingEnabled": false,
+  "pushTopUpEnabled": false,
+  "pushRankingInterval": 1200000,
+  "pushRankingCashThreshold": 0.82,
+  "pushRankingTopUpThreshold": 0.6,
+  "rankingMinPrice": "",
+  "rankingMaxPrice": "",
+  "showTrackedTopUp": true,
+
+  "autoBuyEnabled": false,
+  "autoBuyRatio": 0.82
+}

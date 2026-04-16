@@ -1,0 +1,101 @@
+# ─── Dependencies ──────────────────────────────────────────
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ─── Environment & Secrets ─────────────────────────────────
+.env
+.env.*
+secrets.json
+
+# ─── Runtime Account & Credential Data ─────────────────────
+*.maFile
+manifest.json
+2fa_*.json
+server/accounts.json
+server/settings.json
+server/bought_history.json
+server/stale_listings.json
+server/last_push_matches.json
+server/item_nameid_cache.json
+c5_cookie_new.json
+check_cookies_db.js
+
+# ─── Database Files ─────────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+tracked_items.json
+
+# ─── Runtime Directories ────────────────────────────────────
+server/profiles/
+server/inventories/
+server/logs/
+tmp/
+artifacts/
+screenshots/
+
+# ─── Runtime State ──────────────────────────────────────────
+*.pid
+.tracker.pid
+
+# ─── Binary Tools (download separately) ────────────────────
+natapp.exe
+*.exe
+
+# ─── Build & Dist ───────────────────────────────────────────
+dist/
+build/
+client/dist/
+
+# ─── Scratch / Debug / Test Scripts ────────────────────────
+scratch_*.js
+fix_*.js
+inject_*.js
+debug_*.js
+kill_*.js
+repair.js
+dump_*.js
+diag_*.py
+compare_banned_vs_normal.py
+check_red_letters*.py
+retest_specific.py
+clash_controller.py
+
+# ─── One-off Test Files (root level) ───────────────────────
+test_*.js
+check_*.js
+deep_scan_*.js
+test_steam_node.js
+
+# ─── Debug HTML / Screenshots ───────────────────────────────
+c5_*.html
+c5_steam_raw.html
+c5_*.png
+c5_*.json
+error_*.png
+steam_login_*.png
+natapp_status.html
+
+# ─── Temporary Output Files ─────────────────────────────────
+*.png
+*.html
+*.txt
+*.xlsx
+result_*.txt
+compare_*.txt
+diag_*.txt
+*.log
+
+# ─── Editor & OS ────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.lnk
+
+# ─── Python Cache ───────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
