@@ -78,7 +78,7 @@ cp server/settings.example.json server/settings.json
 ### 4. 运行
 
 **Windows 一键启动：**
-直接运行目录下的 `START_TOOL.ps1` (PowerShell)。它将自动启动：
+直接双击根目录下的 `START_TOOL.bat` (推荐) 或运行 `START_TOOL.ps1`。它将自动完成：
 - 后端服务 (端口 3001)
 - 前端开发服务器 (端口 5173 - 自动打开浏览器)
 - 守护进程 (崩溃自动重启)

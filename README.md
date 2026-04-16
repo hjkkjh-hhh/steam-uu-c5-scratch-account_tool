@@ -78,7 +78,7 @@ cp server/settings.example.json server/settings.json
 ### 4. Running the Application
 
 **One-click start (Windows):**
-Execute `START_TOOL.ps1` via PowerShell. This will launch:
+Execute `START_TOOL.bat` (Recommended) or `START_TOOL.ps1` via PowerShell. This will launch:
 - The backend server (Port 3001)
 - The frontend dev server (Port 5173 - Auto opens in browser)
 - The watchdog process (Auto-restart on crash)
