@@ -46,5 +46,10 @@
   "showTrackedTopUp": true,
 
   "autoBuyEnabled": false,
-  "autoBuyRatio": 0.82
+  "autoBuyRatio": 0.82,
+
+  "youpinAuth": "YOUR_YOUPIN_JWT_TOKEN",
+  "youpinDeviceId": "YOUR_YOUPIN_DEVICE_ID",
+  "youpinDeviceUk": "YOUR_YOUPIN_DEVICE_UK",
+  "youpinUk": "YOUR_YOUPIN_UK"
 }
