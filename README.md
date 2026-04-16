@@ -4,6 +4,10 @@
 
 ---
 
+**[中文版本](./README_zh.md)** | English Version
+
+---
+
 ## 🌟 Core Features
 
 - **Multi-Account Security**: Seamlessly manage hundreds of Steam accounts via `.maFile` (2FA/TOTP), session auto-refresh (LoginSecure), and password-secured API.
