@@ -1,5 +1,7 @@
 # Steam Multi-Account Management & Automation Tool
 
+> If you find this project helpful, please give me a star! 🌟 Thank you very much.
+
 > A robust, professional-grade automation suite for Steam & C5Game asset management. Designed for high-frequency inventory synchronization, market automation, and multi-account security.
 
 ---
