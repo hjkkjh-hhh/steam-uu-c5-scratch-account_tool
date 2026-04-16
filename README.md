@@ -83,14 +83,16 @@ Execute `START_TOOL.ps1` via PowerShell. This will launch:
 - The frontend dev server (Port 5173 - Auto opens in browser)
 - The watchdog process (Auto-restart on crash)
 
-**Manual start:**
-```bash
-# Terminal 1: Backend
-node server/index.js
+**Manual start (Developer Mode):**
 
-# Terminal 2: Frontend
-cd client
-npm run dev
+As the project is a decoupled SPA, you need to run the following commands in **two separate terminal windows**:
+
+```bash
+# Terminal 1: Start Backend Server
+npm run dev:server
+
+# Terminal 2: Start Frontend Dev Server
+npm run dev:client
 ```
 
 ---

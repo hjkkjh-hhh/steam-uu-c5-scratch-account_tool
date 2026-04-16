@@ -83,14 +83,16 @@ cp server/settings.example.json server/settings.json
 - 前端开发服务器 (端口 5173 - 自动打开浏览器)
 - 守护进程 (崩溃自动重启)
 
-**手动启动：**
-```bash
-# 后端
-node server/index.js
+**手动启动 (开发者模式):**
 
-# 前端
-cd client
-npm run dev
+由于前后端分离，您需要在 **两个独立的终端窗口** 中分别运行以下命令：
+
+```bash
+# 终端 1: 启动后端服务
+npm run dev:server
+
+# 终端 2: 启动前端页面
+npm run dev:client
 ```
 
 ---
