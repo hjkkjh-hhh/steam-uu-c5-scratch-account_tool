@@ -116,8 +116,7 @@ let isPurchaseInProgress = false;
         const existingKey = await db.getSetting('c5gameApiKey');
 
         if (!existingKey) {
-            await db.setSetting('c5gameApiKey', 'e6cf1977215d4f7fab624ae1d8bd027c');
-            await db.setSetting('c5gameAppSecret', '1ace1a5de38a4b2cb86e6362b1da9793');
+            console.warn('⚠️ 警告: c5gameApiKey 和 c5gameAppSecret 尚未配置！请在环境或界面中配置。');
         }
 
         const cleaned = await db.cleanStaleListings();
